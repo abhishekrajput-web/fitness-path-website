@@ -1,0 +1,50 @@
+/* scrollbar styling */
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(114, 113, 113);
+    border-radius: 10px;
+    height: 200px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+
+
+
+/* animation for hero img */
+
+.hero-image{
+width: 100%;
+transition: all ease-in 5s;
+animation-name: hero-image;
+animation-iteration-count: infinite;
+animation-duration: 20s;
+}
+
+@keyframes hero-image {
+    0%{
+        transform: scale(1);
+    }
+
+    25%{
+        transform:scale(1.1);
+    }
+
+    50%{
+        transform:scale(1);
+    }
+
+    75%{
+        transform:scale(0.9);
+    }
+    
+    100%{
+        transform:scale(1);
+    }
+}
