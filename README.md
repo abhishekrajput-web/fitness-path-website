@@ -1,6 +1,6 @@
 # Fitness Path Website
 <h1 style="font-size:20px">Responsive fitness website using react.js and react bootstrap</h1>
-<p><a href="fitness-path-website">View The Live Website Deployment </a></p>
+<p><a href="https://fitness-path-website.netlify.app/">View The Live Website Deployment </a></p>
 
 <h2 style="font-size:20px">Technology used to make this website</h2>
 
